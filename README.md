@@ -25,7 +25,9 @@ ProgramPath=C:\ffmpeg\bin\svtplay-dl\svtplay-dl.exe
 Outputfolder=C:\ffmpeg
 Shortcut=p
 ```
-Created in Autohotkey
+Download here: [svtplay-dl-helper-v1.0.zip](https://github.com/dobbelina/svtplay-dl-helper/releases/download/v1.0-Windows/svtplay-dl-helper-v1.0.zip)
+
+![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/svtplay-dl-helper/v1.0-Windows/total)
 
 Hoppas du gillar programmet!
 
