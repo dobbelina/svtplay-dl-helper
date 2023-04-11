@@ -12,7 +12,7 @@ IniName = svtplay-dl.ini
 
 if !FileExist(IniName)
 {
-IniWrite, Path to executable with double quotes if space in filepath, %IniName%, Options, ProgramPath
+IniWrite, Path to executable with double ""double"" quotes if space in filepath, %IniName%, Options, ProgramPath
 IniWrite, Path to download folder no quotes, %IniName%, Options, Outputfolder
 IniWrite, p, %IniName%, Options, Shortcut
 MsgBox Ini file in same diretory
