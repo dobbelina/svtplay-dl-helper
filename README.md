@@ -1,5 +1,5 @@
 # svtplay-dl-helper
-Downloader for svtplay-dl
+Browser utility for svtplay-dl
 
 svtplay-dl-helper is a utility to facilitate downloads in any browser with the popular  
 svtplay-dl program https://svtplay-dl.se/
