@@ -12,8 +12,8 @@ IniName = svtplay-dl.ini
 
 if !FileExist(IniName)
 {
-IniWrite, Path to executable name without quotes, %IniName%, Options, ProgramPath
-IniWrite, Path to download folder also no quotes, %IniName%, Options, Outputfolder
+IniWrite, Path to executable with double quotes if space in filepath, %IniName%, Options, ProgramPath
+IniWrite, Path to download folder no quotes, %IniName%, Options, Outputfolder
 IniWrite, p, %IniName%, Options, Shortcut
 MsgBox Ini file in same diretory
 ExitApp
@@ -21,7 +21,7 @@ ExitApp
 IniRead, ProgramPath, svtplay-dl.ini, Options, ProgramPath
 IniRead, Outputfolder, svtplay-dl.ini, Options, Outputfolder
 IniRead, Shortcut, svtplay-dl.ini, Options, Shortcut
-ProgramPath := chr(34) . ProgramPath . chr(34)
+
 Outputfolder := chr(34) . Outputfolder . chr(34)
 
 Progress,B2 fs18 c0 zh0  w350 h30 CW4e8af2 CTFFFFFF cbBlack,Download = Ctrl + %Shortcut% F4 To Exit ,, svtplay-dl-Notification
