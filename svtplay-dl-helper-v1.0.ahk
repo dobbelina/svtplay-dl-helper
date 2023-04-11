@@ -21,6 +21,9 @@ ExitApp
 IniRead, ProgramPath, svtplay-dl.ini, Options, ProgramPath
 IniRead, Outputfolder, svtplay-dl.ini, Options, Outputfolder
 IniRead, Shortcut, svtplay-dl.ini, Options, Shortcut
+ProgramPath := chr(34) . ProgramPath . chr(34)
+Outputfolder := chr(34) . Outputfolder . chr(34)
+
 Progress,B2 fs18 c0 zh0  w350 h30 CW4e8af2 CTFFFFFF cbBlack,Download = Ctrl + %Shortcut% F4 To Exit ,, svtplay-dl-Notification
 Fader()
 
