@@ -13,7 +13,6 @@ _**Features**_
 Put svtplay-dl-helper.exe in a folder of your choice.  
 First time you run it it will create a settings file called svtplay-dl.ini in the same directory.  
 Open that file with a texteditor and edit the path to svtplay-dl.exe.  
-(if you added svtplay-dl.exe to the windows path environment variable just put in svtplay-dl)
 
 Also edit the path to your desired download location for the videos.  
 If you want to change the shortcut key **Ctrl + p** you can do that as well to start the download process.  
