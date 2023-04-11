@@ -1,4 +1,4 @@
-
+;source https://www.autohotkey.com/boards/viewtopic.php?f=6&t=3702
 GetAccData(WinId:="A") { ;by RRR based on atnbueno's https://www.autohotkey.com/boards/viewtopic.php?f=6&t=3702
     Static w:= [], n:=0
     Global vtr1, vtr2
