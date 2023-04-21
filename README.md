@@ -29,7 +29,7 @@ Download here: [svtplay-dl-helper-v1.0.zip](https://github.com/dobbelina/svtplay
 
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/dobbelina/svtplay-dl-helper/v1.0-Windows/total)
 
-(Windows only)
+(Windows only)  
 Hoppas du gillar programmet!
 
 ## Screenshot
