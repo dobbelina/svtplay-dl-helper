@@ -1,4 +1,4 @@
-# svtplay-dl-helper
+# svtplay-dl-helper ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 Browser utility for svtplay-dl
 
 svtplay-dl-helper is a utility to facilitate downloads in any browser with the popular  
